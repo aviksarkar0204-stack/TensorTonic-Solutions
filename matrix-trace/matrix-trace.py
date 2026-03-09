@@ -8,5 +8,5 @@ def matrix_trace(A):
     A_matrix = np.array(A)
     return A_matrix.trace()
 
-A = np.array([[1,2],[3,4]])
+A = [[1,2],[3,4]]
 matrix_trace(A)
