@@ -6,7 +6,7 @@ def one_hot(y, num_classes=None):
     """
     # Write code here
     if num_classes is None:
-        num_classes = max(y) + 1
+        num_classes = np.max(y) + 1
     N = len(y)
     matrix = np.zeros((N,num_classes))
     matrix[np.arange(N),y] = 1
